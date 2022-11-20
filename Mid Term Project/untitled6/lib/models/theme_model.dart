@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 
 class MyThemes {
   static final lightTheme =
-      FlexThemeData.light(scheme: FlexScheme.purpleBrown).copyWith(
-    scaffoldBackgroundColor: Colors.brown,
+      FlexThemeData.light(scheme: FlexScheme.blue).copyWith(
+    scaffoldBackgroundColor: Colors.lightblue
+    ,
   );
 
   static final darkTheme =
